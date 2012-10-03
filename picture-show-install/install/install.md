@@ -1,5 +1,5 @@
 !SLIDE
-# picture-showのインストール手順
+# picture-show install
 #### picture-showの環境構築ではまったので、インストール手順を紹介します
 
 !SLIDE
@@ -107,4 +107,4 @@ $ git push origin gh-pages
 * ソース
 * [https://github.com/syokenz/slides/tree/gh-pages/picture-show-install](https://github.com/syokenz/slides/tree/gh-pages/picture-show-install)
 * スライド  
-* [https://syokenz.github.com/slides/picture-show-install](https://syokenz.github.com/slides/picture-show-install)
+* [http://syokenz.github.com/slides/picture-show-install](https://syokenz.github.com/slides/picture-show-install)

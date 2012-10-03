@@ -1,15 +1,17 @@
 !SLIDE
-# picture-showのインストール手順
+# picture-show install
 #### picture-showの環境構築ではまったので、インストール手順を紹介します
 
 !SLIDE
 ## picture show とは
-* https://github.com/softprops/picture-show
+* [https://github.com/softprops/picture-show)](https://github.com/softprops/picture-show)
 * Markdownからスライドを作成
 * Scalaで書かれてます
-* 最高にわかりやすい参考↓
-    * [picture-show でスライドを作りましょう](http://d.hatena.ne.jp/tototoshi/20111026/1319644432)
-    * インストール方法、使い方が書いてありますので、まずはこちらを読まれることをおすすめします
+
+!SLIDE
+## picture show についてわかりやすい説明
+* [picture-show でスライドを作りましょう](http://d.hatena.ne.jp/tototoshi/20111026/1319644432)
+* インストール方法、使い方が書いてありますので、まずはこちらを読まれることをおすすめします
 
 !SLIDE
 ## 最終的にはこんな感じで使います
@@ -39,7 +41,7 @@ $ pshow --offline -o=D:\src\git\slides\picture-show-install
 !SLIDE
 ## sbtのインストール
 * ここからdownload
-    * http://scalasbt.artifactoryonline.com/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.11.2/
+    * [http://scalasbt.artifactoryonline.com/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.11.2/](http://scalasbt.artifactoryonline.com/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.11.2/)
 * sbtにパスを通す
 
 !SLIDE
@@ -53,7 +55,7 @@ $ sbt publish-local
 !SLIDE
 ## conscriptのインストール
 * ここからdownload
-    * https://github.com/downloads/n8han/conscript/conscript-0.4.0.jar
+    * [https://github.com/downloads/n8han/conscript/conscript-0.4.0.jar](https://github.com/downloads/n8han/conscript/conscript-0.4.0.jar)
 ```
 $ java -jar conscript-0.4.0.jar
 installed C:\Documents and Settings\user\bin\cs.bat 
@@ -81,6 +83,11 @@ $ pshow --offline -o=D:\src\git\slides\picture-show-install
     * [picture-show でスライドを作りましょう](http://d.hatena.ne.jp/tototoshi/20111026/1319644432)
 
 !SLIDE
+## TIPS
+* 日本語を表示する際にはUTF-8で保存しましょう
+* .mdファイルの最終行は改行しましょう
+
+!SLIDE
 ## githubでスライドショーしたい！
 * gh-pagesを作りましょう
 
@@ -96,8 +103,8 @@ $ git push origin gh-pages
 * gh-pagesにindex.html他をcommitする
 
 !SLIDE
-## このスライドのソースを参考にしてください  
-```
-ソース：https://github.com/syokenz/slides/tree/gh-pages/picture-show-install
-スライド：https://syokenz.github.com/slides/picture-show-install
-```
+## ご参考：このスライドのソース
+* ソース
+* [https://github.com/syokenz/slides/tree/gh-pages/picture-show-install](https://github.com/syokenz/slides/tree/gh-pages/picture-show-install)
+* スライド  
+* [http://syokenz.github.com/slides/picture-show-install](https://syokenz.github.com/slides/picture-show-install)
