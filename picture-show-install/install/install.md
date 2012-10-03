@@ -1,11 +1,13 @@
 !SLIDE
-# picture-show install
+# picture-show
 #### picture-showの環境構築ではまったので、インストール手順を紹介します
+#### Windows用です
 
 !SLIDE
 ## picture show とは
 * [https://github.com/softprops/picture-show)](https://github.com/softprops/picture-show)
-* Markdownからスライドを作成
+* Markdownからスライドを作成できます
+* githubでスライドショーできます
 * Scalaで書かれてます
 
 !SLIDE
@@ -107,4 +109,4 @@ $ git push origin gh-pages
 * ソース
 * [https://github.com/syokenz/slides/tree/gh-pages/picture-show-install](https://github.com/syokenz/slides/tree/gh-pages/picture-show-install)
 * スライド  
-* [http://syokenz.github.com/slides/picture-show-install](https://syokenz.github.com/slides/picture-show-install)
+* [http://syokenz.github.com/slides/picture-show-install](http://syokenz.github.com/slides/picture-show-install)
