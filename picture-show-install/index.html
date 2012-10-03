@@ -1,0 +1,100 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>picture-show install</title>
+        <link type="text/css" rel="stylesheet" href="assets/css/show.css" />
+        <link type="text/css" rel="stylesheet" href="assets/css/prettify.css" />
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/show.js"></script>
+        <script type="text/javascript" src="assets/js/prettify/prettify.js"></script>
+        <script type="text/javascript" src="assets/js/prettify/lang-apollo.js"></script><script type="text/javascript" src="assets/js/prettify/lang-css.js"></script><script type="text/javascript" src="assets/js/prettify/lang-hs.js"></script><script type="text/javascript" src="assets/js/prettify/lang-lisp.js"></script><script type="text/javascript" src="assets/js/prettify/lang-lua.js"></script><script type="text/javascript" src="assets/js/prettify/lang-ml.js"></script><script type="text/javascript" src="assets/js/prettify/lang-proto.js"></script><script type="text/javascript" src="assets/js/prettify/lang-scala.js"></script><script type="text/javascript" src="assets/js/prettify/lang-sql.js"></script><script type="text/javascript" src="assets/js/prettify/lang-sql.js"></script><script type="text/javascript" src="assets/js/prettify/lang-vb.js"></script><script type="text/javascript" src="assets/js/prettify/lang-vhdl.js"></script><script type="text/javascript" src="assets/js/prettify/lang-wiki.js"></script><script type="text/javascript" src="assets/js/prettify/lang-yaml.js"></script><link type="text/css" rel="stylesheet" href="css/custom.css?1349260041515" />
+      <script type="text/javascript"><!--
+        window.onload=function() { prettyPrint(); };
+      --></script>
+      </head>
+      <body>
+        <div id="slides">
+          <div id="reel">
+            <div class="content" id="slide-0">
+       <div class="container"><h1 id="picture-show%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86">picture-showのインストール手順</h1><h4 id="picture-show%E3%81%AE%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%81%A7%E3%81%AF%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86%E3%82%92%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%BE%E3%81%99">picture-showの環境構築ではまったので、インストール手順を紹介します</h4></div>
+      </div><div class="content" id="slide-1">
+       <div class="container"><h2 id="picture+show+%E3%81%A8%E3%81%AF">picture show とは</h2><ul><li>https://github.com/softprops/picture-show
+</li><li>Markdownからスライドを作成
+</li><li>Scalaで書かれてます
+</li><li><p>最高にわかりやすい参考↓
+</p><ul><li><a  href="http://d.hatena.ne.jp/tototoshi/20111026/1319644432">picture-show でスライドを作りましょう</a>
+</li><li>インストール方法、使い方が書いてありますので、まずはこちらを読まれることをおすすめします
+</li></ul></li></ul></div>
+      </div><div class="content" id="slide-2">
+       <div class="container"><h2 id="%E6%9C%80%E7%B5%82%E7%9A%84%E3%81%AB%E3%81%AF%E3%81%93%E3%82%93%E3%81%AA%E6%84%9F%E3%81%98%E3%81%A7%E4%BD%BF%E3%81%84%E3%81%BE%E3%81%99">最終的にはこんな感じで使います</h2><pre><code class="prettyprint lang-">$ pshow  #http://localhost:3000 で起動してスライド確認
+
+$ pshow --offline -o=D:\src\git\slides\picture-show-install
+#outputに出力
+</code></pre></div>
+      </div><div class="content" id="slide-3">
+       <div class="container"><h2 id="%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%9F%E7%92%B0%E5%A2%83">インストールした環境</h2><ul><li>Windows XP
+</li><li>Java 1.7.0_06
+</li><li>Scala 2.9.1
+</li><li>注意：proxy環境ではproxy情報を環境変数にsetしても最後までインストールできませんでした。。
+</li></ul></div>
+      </div><div class="content" id="slide-4">
+       <div class="container"><h2 id="%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE">インストールするもの</h2><ul><li><p>sbt
+</p><ul><li>0.11.2を入れる
+</li></ul></li><li><p>conscript
+</p><ul><li>0.4.0を入れる
+</li></ul></li><li><p>バージョン大切
+</p><ul><li>参考：<a  href="http://kiris.hatenablog.com/entry/2011/12/16/121709">Scala 2.9.1 + sbt 0.11.2 でpicture-showをインストール</a>
+</li></ul></li></ul></div>
+      </div><div class="content" id="slide-5">
+       <div class="container"><h2 id="sbt%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB">sbtのインストール</h2><ul><li><p>ここからdownload
+</p><ul><li>http://scalasbt.artifactoryonline.com/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.11.2/
+</li></ul></li><li>sbtにパスを通す
+</li></ul></div>
+      </div><div class="content" id="slide-6">
+       <div class="container"><h2 id="picture-show%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB">picture-showのインストール</h2><pre><code class="prettyprint lang-">$ git clone https://github.com/kiris/picture-show.git
+$ cd picture-show
+$ sbt publish-local
+</code></pre></div>
+      </div><div class="content" id="slide-7">
+       <div class="container"><h2 id="conscript%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB">conscriptのインストール</h2><ul><li><p>ここからdownload
+</p><ul><li>https://github.com/downloads/n8han/conscript/conscript-0.4.0.jar
+</li></ul></li></ul><pre><code class="prettyprint lang-">$ java -jar conscript-0.4.0.jar
+installed C:\Documents and Settings\user\bin\cs.bat 
+#成功
+</code></pre><ul><li>すかさずcs.batにパスを通す
+</li></ul></div>
+      </div><div class="content" id="slide-8">
+       <div class="container"><h2 id="%E3%83%93%E3%83%AB%E3%83%89">ビルド</h2><pre><code class="prettyprint lang-">$ cs kiris/picture-show
+Conscripted kiris/picture-show to C:\Documents and Settings\myuser\bin\pshow.bat
+#できた！
+</code></pre></div>
+      </div><div class="content" id="slide-9">
+       <div class="container"><h2 id="%E3%82%82%E3%81%86%E4%B8%80%E5%9B%9E%E4%BD%BF%E3%81%84%E6%96%B9">もう一回使い方</h2><pre><code class="prettyprint lang-">$ pshow  #http://localhost:3000 で起動してスライド確認
+
+$ pshow --offline -o=D:\src\git\slides\picture-show-install
+#出力
+</code></pre><ul><li><p>あとはこのブログを参考にしてください
+</p><ul><li><a  href="http://d.hatena.ne.jp/tototoshi/20111026/1319644432">picture-show でスライドを作りましょう</a>
+</li></ul></li></ul></div>
+      </div><div class="content" id="slide-10">
+       <div class="container"><h2 id="github%E3%81%A7%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E3%81%97%E3%81%9F%E3%81%84%EF%BC%81">githubでスライドショーしたい！</h2><ul><li>gh-pagesを作りましょう
+</li></ul><pre><code class="prettyprint lang-">#まずはブランチ作成
+$ git branch gh-pages
+#作ったブランチに作業を移行
+$ git checkout gh-pages
+#修正を加えてコミットしてから
+$ git commit -a
+$ git push origin gh-pages
+</code></pre><ul><li>gh-pagesにindex.html他をcommitする
+</li></ul></div>
+      </div><div class="content" id="slide-11">
+       <div class="container"><h2 id="%E3%81%93%E3%81%AE%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84">このスライドのソースを参考にしてください</h2><p><code>`
+ソース：https://github.com/syokenz/slides/tree/gh-pages/picture-show-install
+スライド：https://syokenz.github.com/slides/picture-show-install
+</code>`</p></div>
+      </div>
+          </div>
+        </div>
+        
+      </body>
+    </html>
