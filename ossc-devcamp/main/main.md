@@ -84,14 +84,14 @@ OpenStandia 藤崎祥見 <br />
 !SLIDE
 ## 動いた！の感動
 * 最近感じてますか？
-![ugoita](../img/ugoita.jpg)
+![ugoita](img/ugoita.jpg)
 
 
 
 !SLIDE
 ## あったらいいなをカタチにする
 * エンジニアだもの
-![future work](../img/2012_05_2.jpg)
+![future work](img/2012_05_2.jpg)
 
 !SLIDE
 ## OSSC開発合宿の特徴
@@ -110,13 +110,13 @@ OpenStandia 藤崎祥見 <br />
 <div align="center" style="font-size: 0.8em">
 2009/07/18
 </div>
-![all_20090718](../img/all_20090718.jpg)
+![all_20090718](img/all_20090718.jpg)
 
 !SLIDE
 ## OpenSOS
 <table>
 <tr>
-  <td><img src="../img/2009_01.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2009_01.jpg" style="margin: 20px;"/></td>
   <td>
     <font color="red" size="6.0em">優勝</font> <br />
     メンバー     <br />
@@ -136,7 +136,7 @@ OpenStandia 藤崎祥見 <br />
 ## のぞき窓 
 <table>
 <tr>
-  <td><img src="../img/2009_02.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2009_02.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     松野（OSSC） <br />
@@ -153,7 +153,7 @@ OpenStandia 藤崎祥見 <br />
 ## PacketStorker
 <table>
 <tr>
-  <td><img src="../img/2009_03.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2009_03.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     藤崎（OSSC） <br />
@@ -167,7 +167,7 @@ OpenStandia 藤崎祥見 <br />
 
 !SLIDE
 ## バーベキューもやったよ！
-![BBQ](../img/bbq.jpg)
+![BBQ](img/bbq.jpg)
 
 !SLIDE
 <div align="center" style="font-size: 1.0em">
@@ -176,13 +176,13 @@ OpenStandia 藤崎祥見 <br />
 <div align="center" style="font-size: 0.8em">
 2010/03/31
 </div>
-![all_20100331](../img/all_20100331.jpg)
+![all_20100331](img/all_20100331.jpg)
 
 !SLIDE
 ## 寮食譲渡システム
 <table>
 <tr>
-  <td><img src="../img/2010_01.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_01.jpg" style="margin: 20px;"/></td>
   <td>
     <font color="red" size="6.0em">優勝</font> <br />
     メンバー     <br />
@@ -200,7 +200,7 @@ OpenStandia 藤崎祥見 <br />
 ## 顔認識＋コメント合成システム
 <table>
 <tr>
-  <td><img src="../img/2010_02.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_02.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     藤崎（OSSC） <br />
@@ -216,7 +216,7 @@ OpenStandia 藤崎祥見 <br />
 ## 外部宛メール記録を分析してくれるBeckyプラグイン
 <table>
 <tr>
-  <td><img src="../img/2010_03.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_03.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     驛  （NRI） <br />
@@ -234,13 +234,13 @@ OpenStandia 藤崎祥見 <br />
 <div align="center" style="font-size: 0.8em">
 2010/06/04
 </div>
-![all_20100604](../img/all_20100604.jpg)
+![all_20100604](img/all_20100604.jpg)
 
 !SLIDE
 ## 口コミウィジェット
 <table>
 <tr>
-  <td><img src="../img/2010_04.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_04.jpg" style="margin: 20px;"/></td>
   <td>
     <font color="red" size="6.0em">優勝</font> <br />
     メンバー     <br />
@@ -256,7 +256,7 @@ OpenStandia 藤崎祥見 <br />
 ## 飲活ナビ
 <table>
 <tr>
-  <td><img src="../img/2010_05.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_05.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     寺田（OSSC） <br />
@@ -273,7 +273,7 @@ OpenStandia 藤崎祥見 <br />
 ## ウェディングなう
 <table>
 <tr>
-  <td><img src="../img/2010_06.jpg" style="margin: 20px;"/>
+  <td><img src="img/2010_06.jpg" style="margin: 20px;"/>
       <br />
       <a href="http://wnw2.fedc.biz/mitani/show" target="_blank">http://wnw2.fedc.biz/mitani/show</a>
       <br />
@@ -297,7 +297,7 @@ OpenStandia 藤崎祥見 <br />
 ## コエどこ
 <table>
 <tr>
-  <td><img src="../img/2010_07.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_07.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     田中（OSSC） <br />
@@ -313,7 +313,7 @@ OpenStandia 藤崎祥見 <br />
 ## ニコつく
 <table>
 <tr>
-  <td><img src="../img/2010_08.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2010_08.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     高橋（OSSC） <br />
@@ -327,7 +327,7 @@ OpenStandia 藤崎祥見 <br />
 
 !SLIDE
 ## 卓球大会
-![TQ](../img/tq.jpg)
+![TQ](img/tq.jpg)
 
 !SLIDE
 <div align="center" style="font-size: 1.0em">
@@ -336,14 +336,14 @@ OpenStandia 藤崎祥見 <br />
 <div align="center" style="font-size: 0.8em">
 2011/05/13
 </div>
-![top_20110513](../img/top_20110513.jpg)
+![top_20110513](img/top_20110513.jpg)
 
 
 !SLIDE
 ## 麻雀役・点数自動計算アプリ
 <table>
 <tr>
-  <td><img src="../img/2011_01.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_01.jpg" style="margin: 20px;"/></td>
   <td>
     <font color="red" size="6.0em">優勝</font> <br />
     メンバー     <br />
@@ -362,7 +362,7 @@ OpenStandia 藤崎祥見 <br />
 ## 割り勘名人
 <table>
 <tr>
-  <td><img src="../img/2011_02.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_02.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     瀬戸島（NRI） <br />
@@ -378,7 +378,7 @@ OpenStandia 藤崎祥見 <br />
 ## 美人ラーメン
 <table>
 <tr>
-  <td><img src="../img/2011_03.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_03.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     菅原  （NRI） <br />
@@ -394,7 +394,7 @@ OpenStandia 藤崎祥見 <br />
 ## WC-NAVI
 <table>
 <tr>
-  <td><img src="../img/2011_04.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_04.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     橋立（NRI） <br />
@@ -410,7 +410,7 @@ OpenStandia 藤崎祥見 <br />
 ## RMB48
 <table>
 <tr>
-  <td><img src="../img/2011_05.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_05.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     三宅（NRI） <br />
@@ -426,7 +426,7 @@ OpenStandia 藤崎祥見 <br />
 ## 流行語検索アプリ
 <table>
 <tr>
-  <td><img src="../img/2011_06.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_06.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     高橋（OSSC） <br />
@@ -445,7 +445,7 @@ OpenStandia 藤崎祥見 <br />
 ## ノボリーナ
 <table>
 <tr>
-  <td><img src="../img/2011_07.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2011_07.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     小出（PRO） <br />
@@ -464,13 +464,13 @@ OpenStandia 藤崎祥見 <br />
 <div align="center" style="font-size: 0.8em">
 2012/05/12
 </div>
-![top_20120512](../img/top_20120512.jpg)
+![top_20120512](img/top_20120512.jpg)
 
 !SLIDE
 ## So-matter
 <table>
 <tr>
-  <td><img src="../img/2012_01.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2012_01.jpg" style="margin: 20px;"/></td>
   <td>
     <font color="red" size="6.0em">優勝</font> <br />
     メンバー     <br />
@@ -487,7 +487,7 @@ OpenStandia 藤崎祥見 <br />
 ## The Source
 <table>
 <tr>
-  <td><img src="../img/2012_02.jpg" style="margin: 20px;"/>
+  <td><img src="img/2012_02.jpg" style="margin: 20px;"/>
       <br / >
       <a href="http://thesource.meteor.com/" target="_blank">http://thesource.meteor.com/</a>
   </td>
@@ -506,7 +506,7 @@ Meteorを使った双方向ソースコードレビューシステム。ブラ�
 ## パネくと
 <table>
 <tr>
-  <td><img src="../img/2012_03.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2012_03.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     三宅  （NRI） <br />
@@ -521,7 +521,7 @@ Kinectを利用して、モーションキャプチャでプレゼンテーシ�
 ## Mens Knuckle Maker
 <table>
 <tr>
-  <td><img src="../img/2012_04.jpg" style="margin: 20px;"/>
+  <td><img src="img/2012_04.jpg" style="margin: 20px;"/>
   </td>
   <td>
     メンバー     <br />
@@ -540,7 +540,7 @@ Kinectを利用して、モーションキャプチャでプレゼンテーシ�
 ## てりぼー
 <table>
 <tr>
-  <td><img src="../img/2012_05.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2012_05.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     二瓶（NRI） <br />
@@ -557,7 +557,7 @@ Kinectを利用して、モーションキャプチャでプレゼンテーシ�
 ## Reajest
 <table>
 <tr>
-  <td><img src="../img/2012_06.jpg" style="margin: 20px;"/>
+  <td><img src="img/2012_06.jpg" style="margin: 20px;"/>
   </td>
   <td>
     メンバー     <br />
@@ -576,7 +576,7 @@ Facebookから情報を取得して、自分と自分の友達の中からリア
 ## Issue Tracker
 <table>
 <tr>
-  <td><img src="../img/2012_07.jpg" style="margin: 20px;"/></td>
+  <td><img src="img/2012_07.jpg" style="margin: 20px;"/></td>
   <td>
     メンバー     <br />
     小出（PRO） <br />
@@ -605,7 +605,7 @@ BTSにゲーミフィケーションの要素を加えたシステム。ラン�
 終わり
 </div>
 <div align="center" >
-<img src="../img/all.jpg">
+<img src="img/all.jpg">
 </div>
 
 
