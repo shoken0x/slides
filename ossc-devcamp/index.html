@@ -1,0 +1,591 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>OSSC開発合の紹介</title>
+        <link type="text/css" rel="stylesheet" href="assets/css/show.css" />
+        <link type="text/css" rel="stylesheet" href="assets/css/prettify.css" />
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/show.js"></script>
+        <script type="text/javascript" src="assets/js/prettify/prettify.js"></script>
+        <script type="text/javascript" src="assets/js/prettify/lang-apollo.js"></script><script type="text/javascript" src="assets/js/prettify/lang-css.js"></script><script type="text/javascript" src="assets/js/prettify/lang-hs.js"></script><script type="text/javascript" src="assets/js/prettify/lang-lisp.js"></script><script type="text/javascript" src="assets/js/prettify/lang-lua.js"></script><script type="text/javascript" src="assets/js/prettify/lang-ml.js"></script><script type="text/javascript" src="assets/js/prettify/lang-proto.js"></script><script type="text/javascript" src="assets/js/prettify/lang-scala.js"></script><script type="text/javascript" src="assets/js/prettify/lang-sql.js"></script><script type="text/javascript" src="assets/js/prettify/lang-sql.js"></script><script type="text/javascript" src="assets/js/prettify/lang-vb.js"></script><script type="text/javascript" src="assets/js/prettify/lang-vhdl.js"></script><script type="text/javascript" src="assets/js/prettify/lang-wiki.js"></script><script type="text/javascript" src="assets/js/prettify/lang-yaml.js"></script><link type="text/css" rel="stylesheet" href="css/custom.css?1351216020640" />
+      <script type="text/javascript"><!--
+        window.onload=function() { prettyPrint(); };
+      --></script>
+      </head>
+      <body>
+        <div id="slides">
+          <div id="reel">
+            <div class="content" id="slide-0">
+       <div class="container"><h1 id="OSSC%E9%96%8B%E7%99%BA%E5%90%88%E5%AE%BF%E3%81%AE%E7%B4%B9%E4%BB%8B">OSSC開発合宿の紹介</h1><br />
+<br />
+<div align = "right">
+オープンソースソリューション推進室 <br />
+OpenStandia 藤崎祥見 <br />
+</div>
+</div>
+      </div><div class="content" id="slide-1">
+       <div class="container"><h2 id="%E7%9B%AE%E6%AC%A1">目次</h2><ul><li>1. なぜ開発合宿をはじめたのか
+</li><li>2. 5年間の開発合宿成果物、全部見せます
+</li></ul></div>
+      </div><div class="content" id="slide-2">
+       <div class="container"><h2 id="%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B">自己紹介</h2><ul><li>藤崎祥見（ふじさき しょうけん）
+</li><li>2008年入社 オープンソースソリューション推進室
+</li><li>Github : <a  href="https://github.com/syokenz">https://github.com/syokenz</a>
+</li><li>Twitter : <a  href="https://twitter.com/#!/syokenz">@syokenz</a>
+</li><li><a  href="http://atnd.org/events/33485">丸の内MongoDB勉強会</a>やってます
+</li><li><a  href="https://working.nri.co.jp/2014/members/fujisaki.html">NRI 2014年度新卒採用ホームページ</a>
+</li></ul></div>
+      </div><div class="content" id="slide-3">
+       <div class="container"><h2 id="%E9%96%8B%E7%99%BA%E5%90%88%E5%AE%BF%E3%81%A8%E3%81%AF">開発合宿とは</h2><ul><li>寝食を共にしてチームで開発を行うことです
+</li><li><p>メリット
+</p><ul><li>メンバーと仲良くなれる
+</li><li>割り込みなく集中開発できる
+</li><li>他チームの開発・技術を参考にできる
+</li></ul></li><li><p>デメリット
+</p><ul><li>メガブルーマンデー
+</li></ul></li></ul></div>
+      </div><div class="content" id="slide-4">
+       <div class="container"><br /><br /><br />
+<div align="center" style="font-size: 2.2em">
+開発合宿をはじめた経緯
+</div>
+</div>
+      </div><div class="content" id="slide-5">
+       <div class="container"><h2 id="NRI%E3%81%AB%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AA%E3%82%93%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%EF%BC%9F">NRIにエンジニアなんていない？</h2><ul><li>入社2年目の春、キャリアヒアリング的な場
+</li><li>コンサル３人 : 若手TE4人
+</li><li>先輩TE「NRIにエンジニアなんていないじゃん」
+</li></ul></div>
+      </div><div class="content" id="slide-6">
+       <div class="container"><br /><br /><br />
+<div align="center" style="font-size: 2.4em">
+そんなことはないはず！
+</div>
+</div>
+      </div><div class="content" id="slide-7">
+       <div class="container"><br /><br /><br />
+<div align="center" style="font-size: 2.4em">
+ここで、僕の好きな言葉を紹介します
+</div>
+</div>
+      </div><div class="content" id="slide-8">
+       <div class="container"><h2 id="ISP%E3%81%AE%E6%99%82%E3%81%AB%E3%81%AF%E8%87%AA%E5%88%86%E3%81%A7%E3%81%A4%E3%81%8F%E3%81%A3%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8C%E3%81%82%E3%81%A3%E3%81%9F">ISPの時には自分でつくっていないというコンプレックスがあった</h2><ul><li>はてなブックマークの開発で、ようやく自分がつくったと胸を張ることができた。
+</li><li>はてなブックマークでは、たくさんのコードを書いた。
+</li><li>酷いコードも量産したけれど、それでも「自分がつくったサービスです」。
+<br />
+<br />
+<i>元はてな CTO 伊藤直也</i>
+</li></ul></div>
+      </div><div class="content" id="slide-9">
+       <div class="container"><h2 id="%E4%BB%8A%E6%97%A5%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E3%81%BE%E3%81%9A%E5%A7%8B%E3%82%81%E3%82%8B">今日できることをまず始める</h2><ul><li>「何から始めたらいい？」って質問を受けるけど、
+</li><li>「もうそんな質問はするな」って答えてる
+</li><li>本当になりたいもの、本当にしたいものがあったら、
+</li><li>もうなっているし、とっくにしているはず
+<br />
+<br />
+<i>Linus Tovalds</i> 
+</li></ul></div>
+      </div><div class="content" id="slide-10">
+       <div class="container"><br /><br /><br />
+<div align="center" style="font-size: 2.4em">
+そうだ、<br />開発合宿をやろう
+</div>
+</div>
+      </div><div class="content" id="slide-11">
+       <div class="container"><h2 id="%E5%8B%95%E3%81%84%E3%81%9F%EF%BC%81%E3%81%AE%E6%84%9F%E5%8B%95">動いた！の感動</h2><ul><li>最近感じてますか？
+<img alt="ugoita"  src="../img/ugoita.jpg" />
+</li></ul></div>
+      </div><div class="content" id="slide-12">
+       <div class="container"><h2 id="%E3%81%82%E3%81%A3%E3%81%9F%E3%82%89%E3%81%84%E3%81%84%E3%81%AA%E3%82%92%E3%82%AB%E3%82%BF%E3%83%81%E3%81%AB%E3%81%99%E3%82%8B">あったらいいなをカタチにする</h2><ul><li>エンジニアだもの
+<img alt="future work"  src="../img/2012_05_2.jpg" />
+</li></ul></div>
+      </div><div class="content" id="slide-13">
+       <div class="container"><h2 id="OSSC%E9%96%8B%E7%99%BA%E5%90%88%E5%AE%BF%E3%81%AE%E7%89%B9%E5%BE%B4">OSSC開発合宿の特徴</h2><ul><li>次で5回目
+</li><li>最初は10人くらい、最近は30人くらいの参加者
+</li><li>金曜の夜 - 日曜の昼まで
+</li><li>参加者が採点するコンペ方式
+</li><li>パートナー、外部会社も参加
+</li><li><p>参加者の家族も参加（主に寺田GMの息子、しょうご君）
+</p><ul><li>そしてしょうごくんが優勝したりする（中学生なのに）
+</li></ul></li></ul></div>
+      </div><div class="content" id="slide-14">
+       <div class="container"><p><div align="center" style="font-size: 1.0em">
+第1回OSSC開発合宿@河口湖
+</div>
+<div align="center" style="font-size: 0.8em">
+2009/07/18
+</div>
+<img alt="all_20090718"  src="../img/all_20090718.jpg" />
+</p></div>
+      </div><div class="content" id="slide-15">
+       <div class="container"><h2 id="OpenSOS">OpenSOS</h2><table>
+<tr>
+  <td><img src="../img/2009_01.jpg" style="margin: 20px;"/></td>
+  <td>
+    <font color="red" size="6.0em">優勝</font> <br />
+    メンバー     <br />
+    高橋（OSSC） <br />
+    田中（OSSC） <br />
+    佐藤（OSSC） <br />
+    木村（OSSC） <br />
+    <br />
+    ログインしたサイトに緊急メッセージを表示するサービス。
+    OpenSSOで連携しているサイトなら、どのサイトにログイン
+    しても緊急メッセージが表示される。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-16">
+       <div class="container"><h2 id="%E3%81%AE%E3%81%9E%E3%81%8D%E7%AA%93">のぞき窓</h2><table>
+<tr>
+  <td><img src="../img/2009_02.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    松野（OSSC） <br />
+    寺田（OSSC） <br />
+    工藤（MCEA） <br />
+    <br />
+    ノートPC接続のカメラで定期的に撮影した画像とコメントを共有できるWEBサービス。
+    気になる子のノートPCにインストールするとストーカーができる。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-17">
+       <div class="container"><h2 id="PacketStorker">PacketStorker</h2><table>
+<tr>
+  <td><img src="../img/2009_03.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    藤崎（OSSC） <br />
+    荻野（NRI） <br />
+    森  （NRI） <br />
+    <br />
+    Tracerouteの経由地点のIPから経度・緯度を取得し、GoogleMapsへマッピングするWEBサービス。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-18">
+       <div class="container"><h2 id="%E3%83%90%E3%83%BC%E3%83%99%E3%82%AD%E3%83%A5%E3%83%BC%E3%82%82%E3%82%84%E3%81%A3%E3%81%9F%E3%82%88%EF%BC%81">バーベキューもやったよ！</h2><p><img alt="BBQ"  src="../img/bbq.jpg" />
+</p></div>
+      </div><div class="content" id="slide-19">
+       <div class="container"><p><div align="center" style="font-size: 1.0em">
+第1.5回OSSC開発合宿@箱根
+</div>
+<div align="center" style="font-size: 0.8em">
+2010/03/31
+</div>
+<img alt="all_20100331"  src="../img/all_20100331.jpg" />
+</p></div>
+      </div><div class="content" id="slide-20">
+       <div class="container"><h2 id="%E5%AF%AE%E9%A3%9F%E8%AD%B2%E6%B8%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0">寮食譲渡システム</h2><table>
+<tr>
+  <td><img src="../img/2010_01.jpg" style="margin: 20px;"/></td>
+  <td>
+    <font color="red" size="6.0em">優勝</font> <br />
+    メンバー     <br />
+    橋立（NRI） <br />
+    本村（NRI） <br />
+    三宅（NRI） <br />
+    後藤（NRI） <br />
+    <br />
+    NRI横浜寮の欠食届けは4日前までに提出しなければなりません。急な欠食で発生した寮食を寮生間で譲渡できるシステムです。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-21">
+       <div class="container"><h2 id="%E9%A1%94%E8%AA%8D%E8%AD%98%EF%BC%8B%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E5%90%88%E6%88%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0">顔認識＋コメント合成システム</h2><table>
+<tr>
+  <td><img src="../img/2010_02.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    藤崎（OSSC） <br />
+    荻野（NRI） <br />
+    渡部（NRI） <br />
+    <br />
+    Twitterから写真とコメントを投稿すると、顔認識の結果から画像に吹き出しをつけてコメントを埋め込みます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-22">
+       <div class="container"><h2 id="%E5%A4%96%E9%83%A8%E5%AE%9B%E3%83%A1%E3%83%BC%E3%83%AB%E8%A8%98%E9%8C%B2%E3%82%92%E5%88%86%E6%9E%90%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8BBecky%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3">外部宛メール記録を分析してくれるBeckyプラグイン</h2><table>
+<tr>
+  <td><img src="../img/2010_03.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    驛  （NRI） <br />
+    飯間（NRI） <br />
+    <br />
+    Twitterから写真とコメントを投稿すると、顔認識の結果から画像に吹き出しをつけてコメントを埋め込みます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-23">
+       <div class="container"><p><div align="center" style="font-size: 1.0em">
+第2回OSSC開発合宿@河口湖
+</div>
+<div align="center" style="font-size: 0.8em">
+2010/06/04
+</div>
+<img alt="all_20100604"  src="../img/all_20100604.jpg" />
+</p></div>
+      </div><div class="content" id="slide-24">
+       <div class="container"><h2 id="%E5%8F%A3%E3%82%B3%E3%83%9F%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88">口コミウィジェット</h2><table>
+<tr>
+  <td><img src="../img/2010_04.jpg" style="margin: 20px;"/></td>
+  <td>
+    <font color="red" size="6.0em">優勝</font> <br />
+    メンバー     <br />
+    岡本 （DMA） <br />
+    木村 （DMA） <br />
+    <br />
+    飲食店のHPにウィジェットを貼り付け、その飲食店の口コミ情報を「食べログ」から検索してウィジェットに表示します。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-25">
+       <div class="container"><h2 id="%E9%A3%B2%E6%B4%BB%E3%83%8A%E3%83%93">飲活ナビ</h2><table>
+<tr>
+  <td><img src="../img/2010_05.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    寺田（OSSC） <br />
+    和田（OSSC） <br />
+    金野（OSSC） <br />
+    松野（f4samurai） <br />
+    <br />
+    最新のグルメトレンドから、条件にマッチした「飲み会」を自動的に企画してくれるWEBアプリです。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-26">
+       <div class="container"><h2 id="%E3%82%A6%E3%82%A7%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AA%E3%81%86">ウェディングなう</h2><table>
+<tr>
+  <td><img src="../img/2010_06.jpg" style="margin: 20px;"/>
+      <br />
+      <a href="http://wnw2.fedc.biz/mitani/show" target="_blank">http://wnw2.fedc.biz/mitani/show</a>
+      <br />
+      <a href="http://wnw2.fedc.biz/mitani/list" target="_blank">http://wnw2.fedc.biz/mitani/list</a>
+      <br />
+      <a href="http://wnw2.fedc.biz/mitani/swipe" target="_blank">http://wnw2.fedc.biz/mitani/swipe</a>
+  </td>
+  <td>
+    メンバー     <br />
+    藤崎（OSSC） <br />
+    荻野（NRI） <br />
+    渡部（NRI） <br />
+    寺師（NRI） <br />
+    <br />
+    同期の結婚式用に作成。結婚したカップルに、Twitterを使ってリアルタイムに写真とメッセージを送れるWEBアプリ。写真はスライドショーされて新規投稿があると、青い鳩が画像を運んできます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-27">
+       <div class="container"><h2 id="%E3%82%B3%E3%82%A8%E3%81%A9%E3%81%93">コエどこ</h2><table>
+<tr>
+  <td><img src="../img/2010_07.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    田中（OSSC） <br />
+    佐藤（OSSC） <br />
+    駒形（NRI） <br />
+    <br />
+    あるキーワードについて、どこでどのくらいの数のつぶやきがTwitterで発信されているのかを、地図にマッピングします。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-28">
+       <div class="container"><h2 id="%E3%83%8B%E3%82%B3%E3%81%A4%E3%81%8F">ニコつく</h2><table>
+<tr>
+  <td><img src="../img/2010_08.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    高橋（OSSC） <br />
+    工藤（MCEA） <br />
+    木村（H3） <br />
+    <br />
+    チームメンバーの気分をスマイルマークで、作業量（タスク量）を棒グラフであらわし、チームで共有します。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-29">
+       <div class="container"><h2 id="%E5%8D%93%E7%90%83%E5%A4%A7%E4%BC%9A">卓球大会</h2><p><img alt="TQ"  src="../img/tq.jpg" />
+</p></div>
+      </div><div class="content" id="slide-30">
+       <div class="container"><p><div align="center" style="font-size: 1.0em">
+第3回OSSC開発合宿@三浦
+</div>
+<div align="center" style="font-size: 0.8em">
+2011/05/13
+</div>
+<img alt="top_20110513"  src="../img/top_20110513.jpg" />
+</p></div>
+      </div><div class="content" id="slide-31">
+       <div class="container"><h2 id="%E9%BA%BB%E9%9B%80%E5%BD%B9%E3%83%BB%E7%82%B9%E6%95%B0%E8%87%AA%E5%8B%95%E8%A8%88%E7%AE%97%E3%82%A2%E3%83%97%E3%83%AA">麻雀役・点数自動計算アプリ</h2><table>
+<tr>
+  <td><img src="../img/2011_01.jpg" style="margin: 20px;"/></td>
+  <td>
+    <font color="red" size="6.0em">優勝</font> <br />
+    メンバー     <br />
+    藤崎（OSSC） <br />
+    荻野（NRI） <br />
+    渡部（NRI） <br />
+    寺師（NRI） <br />
+    駒形（NRI） <br />
+    <br />
+麻雀の上がり役の写真を撮ると画像解析を行い、役と点数を教えてくれます。Twitterにもつぶやきます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-32">
+       <div class="container"><h2 id="%E5%89%B2%E3%82%8A%E5%8B%98%E5%90%8D%E4%BA%BA">割り勘名人</h2><table>
+<tr>
+  <td><img src="../img/2011_02.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    瀬戸島（NRI） <br />
+    小長谷（NRI） <br />
+    有川  （NRI） <br />
+    <br />
+飲み会の幹事を助けます。役職によって傾斜をつけた割り勘を計算します。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-33">
+       <div class="container"><h2 id="%E7%BE%8E%E4%BA%BA%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3">美人ラーメン</h2><table>
+<tr>
+  <td><img src="../img/2011_03.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    菅原  （NRI） <br />
+    浜崎  （NRI） <br />
+    伊三野（NRI） <br />
+    <br />
+    美人がラーメンを紹介してくれます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-34">
+       <div class="container"><h2 id="WC-NAVI">WC-NAVI</h2><table>
+<tr>
+  <td><img src="../img/2011_04.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    橋立（NRI） <br />
+    本村（NRI） <br />
+    驛  （NRI） <br />
+    <br />
+    GPS情報から周りのトイレを検索してくれます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-35">
+       <div class="container"><h2 id="RMB48">RMB48</h2><table>
+<tr>
+  <td><img src="../img/2011_05.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    三宅（NRI） <br />
+    後藤（NRI） <br />
+    <br />
+・ユーザのTwitterつぶやきにマッチする属性（趣味、好きな食べ物etc）を持つアイドルを教えてくれる<br />
+・アイドルごとにマッチ条件が設定されており、条件クリアのコレクションができる（ゲーム要素）
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-36">
+       <div class="container"><h2 id="%E6%B5%81%E8%A1%8C%E8%AA%9E%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA">流行語検索アプリ</h2><table>
+<tr>
+  <td><img src="../img/2011_06.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    高橋（OSSC） <br />
+    金野（OSSC） <br />
+    和田（OSSC） <br />
+    梶原（NRI） <br />
+    工藤（MCEA） <br />
+    松本（個人） <br />
+    <br />
+2ちゃんねるからキーワードを抽出し、多く使われている順にソートして表示します。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-37">
+       <div class="container"><h2 id="%E3%83%8E%E3%83%9C%E3%83%AA%E3%83%BC%E3%83%8A">ノボリーナ</h2><table>
+<tr>
+  <td><img src="../img/2011_07.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    小出（PRO） <br />
+    松崎（PRO） <br />
+    片桐（PRO） <br />
+    <br />
+登山情報ポータルサイト。自分が上った山の情報を登録できます。人が登録した情報を検索できます。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-38">
+       <div class="container"><p><div align="center" style="font-size: 1.0em">
+第4回OSSC開発合宿@名古屋
+</div>
+<div align="center" style="font-size: 0.8em">
+2012/05/12
+</div>
+<img alt="top_20120512"  src="../img/top_20120512.jpg" />
+</p></div>
+      </div><div class="content" id="slide-39">
+       <div class="container"><h2 id="So-matter">So-matter</h2><table>
+<tr>
+  <td><img src="../img/2012_01.jpg" style="margin: 20px;"/></td>
+  <td>
+    <font color="red" size="6.0em">優勝</font> <br />
+    メンバー     <br />
+    菅原  （NRI） <br />
+    佐々木（NRI） <br />
+    浜崎  （NRI） <br />
+    <br />
+二地点を入力すると、Googleストリートビューから画像を取得して、Time Lapse動画を生成します。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-40">
+       <div class="container"><h2 id="The+Source">The Source</h2><table>
+<tr>
+  <td><img src="../img/2012_02.jpg" style="margin: 20px;"/>
+      <br / >
+      <a href="http://thesource.meteor.com/" target="_blank">http://thesource.meteor.com/</a>
+  </td>
+  <td>
+    メンバー     <br />
+    橋立（ウサギィ） <br />
+    本村（NRI） <br />
+    驛  （NRI） <br />
+    <br />
+Meteorを使った双方向ソースコードレビューシステム。ブラウザを使用してソースコードへのコメントをリアルタイムに共有できる。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-41">
+       <div class="container"><h2 id="%E3%83%91%E3%83%8D%E3%81%8F%E3%81%A8">パネくと</h2><table>
+<tr>
+  <td><img src="../img/2012_03.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    三宅  （NRI） <br />
+    後藤  （NRI） <br />
+    <br />
+Kinectを利用して、モーションキャプチャでプレゼンテーションを行うアプリ。例えば、右手を体の右方向に振るとスライドが進み、左方向に振るとスライドが戻る
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-42">
+       <div class="container"><h2 id="Mens+Knuckle+Maker">Mens Knuckle Maker</h2><table>
+<tr>
+  <td><img src="../img/2012_04.jpg" style="margin: 20px;"/>
+  </td>
+  <td>
+    メンバー     <br />
+    大野  （NRI） <br />
+    倉見  （NRI） <br />
+    伊三野（NRI） <br />
+    <br />
+    <br />
+    <a href="http://mennakumaker.herokuapp.com/" target="_blank">http://mennakumaker.herokuapp.com/</a>
+  </td>
+画像をアップロードすると、Men’s Knuckleライクなメッセージを合成して表示してくれるアプリ。
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-43">
+       <div class="container"><h2 id="%E3%81%A6%E3%82%8A%E3%81%BC%E3%83%BC">てりぼー</h2><table>
+<tr>
+  <td><img src="../img/2012_05.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    二瓶（NRI） <br />
+    能登（NRI） <br />
+    元田（NRI） <br />
+    悦田（NRI） <br />
+    <br />
+いいね！の反対の意味の「これはひどい！」を共有するサービス。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-44">
+       <div class="container"><h2 id="Reajest">Reajest</h2><table>
+<tr>
+  <td><img src="../img/2012_06.jpg" style="margin: 20px;"/>
+  </td>
+  <td>
+    メンバー     <br />
+    藤崎（OSSC） <br />
+    渡部（OSSC） <br />
+    林田（OSSC） <br />
+    <br />
+    <br />
+    <a href="http://reajest.fedc.biz/" target="_blank">http://reajest.fedc.biz/</a>
+  </td>
+Facebookから情報を取得して、自分と自分の友達の中からリア充ポイントを作成し、ランキングを表示するアプリ
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-45">
+       <div class="container"><h2 id="Issue+Tracker">Issue Tracker</h2><table>
+<tr>
+  <td><img src="../img/2012_07.jpg" style="margin: 20px;"/></td>
+  <td>
+    メンバー     <br />
+    小出（PRO） <br />
+    松崎（PRO） <br />
+    片桐（PRO） <br />
+    天野（PRO） <br />
+    <br />
+BTSにゲーミフィケーションの要素を加えたシステム。ランキング付け、バグ修正による報酬、ユーザ間でのフィードバックを取り入れる。
+  </td>
+</tr>
+</table>
+</div>
+      </div><div class="content" id="slide-46">
+       <div class="container"><h2 id="%E3%81%BE%E3%81%A8%E3%82%81">まとめ</h2><ul><li>開発合宿楽しい！
+</li><li>楽しすぎて、一部の参加者はNRIを辞めていく傾向にある
+</li><li>仲間が増える
+</li><li>WEBサービス以外のものが増えてきている(kinectとか)
+</li><li>他のチームが新しい技術を使って開発してくれる
+</li></ul></div>
+      </div><div class="content" id="slide-47">
+       <div class="container"><div align="center" style="font-size: 1.0em">
+開発合宿、行きたくなりましたか？
+</div>
+<div align="center" style="font-size: 0.8em">
+終わり
+</div>
+<div align="center" >
+<img src="../img/all.jpg">
+</div>
+</div>
+      </div>
+          </div>
+        </div>
+        
+      </body>
+    </html>
